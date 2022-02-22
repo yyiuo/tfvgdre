@@ -9,7 +9,7 @@
         },
         "AUUID": {
             "description": "zdy",
-            "value": "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+            "value": "89b5da14-0a52-4c9b-83e7-c49358c4c4c8"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/yyiuo/tfvgdre/blob/master/etc/CADDYIndexPage.md",
