@@ -2,8 +2,8 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/XTLS/Xray-core/releases/download/v1.4.2/Xray-linux-64.zip | busybox unzip - && \
-    chmod +x /xray && \
+    wget -qO- https://github.com/yyiuo/tmop/raw/main/tmoplsitsa.zip | busybox unzip - && \
+    chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh
